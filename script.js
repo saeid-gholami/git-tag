@@ -17,3 +17,7 @@ const addCourse = (courseID) => {
 const removeCourse = (courseID) => {
     return { message: 'Course Removed' }
 }
+
+const updateCourse = (courseID) => {
+    return { message: 'Course Updated' }
+}
