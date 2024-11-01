@@ -23,5 +23,5 @@ const updateCourse = (courseID) => {
 }
 
 const likePost = (postID, userID) => {
-    return false
+    return { post: postID, user: userID, status: true }
 }
