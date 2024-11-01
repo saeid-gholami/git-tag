@@ -13,3 +13,7 @@ const getMe = (userID) => {
 const addCourse = (courseID) => {
     return true
 }
+
+const removeCourse = (courseID) => {
+    return { message: 'Course Removed' }
+}
