@@ -9,3 +9,7 @@ const register = (userID) => {
 const getMe = (userID) => {
     return true
 }
+
+const addCourse = (courseID) => {
+    return true
+}
