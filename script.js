@@ -21,3 +21,7 @@ const removeCourse = (courseID) => {
 const updateCourse = (courseID) => {
     return { message: 'Course Updated' }
 }
+
+const likePost = (postID, userID) => {
+    return false
+}
